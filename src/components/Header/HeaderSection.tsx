@@ -5,7 +5,7 @@ const HeaderSection = () => {
     <StyledHeader>
       <div className="flex items-center justify-between py-4">
         <p className="text-[24px]">ZL</p>
-        <div className="header-nav flex gap-12 font-[300]">
+        <div className="header-nav flex gap-12">
           <a className="custom-link" href="#projects">
             Projects
           </a>
@@ -18,11 +18,11 @@ const HeaderSection = () => {
         </div>
       </div>
       <div className="header-content my-28">
-        <p className="font-[300]">Hey, I'm</p>
+        <p>Hey, I'm</p>
         <p className="text-[90px] font-[500] header-content__title">
           zaynlannister
         </p>
-        <p className="mt-5 font-[300]">
+        <p className="mt-5">
           My name is Bekzod, and I'm an 18 years old developer. I aspire to
           constant growth in the field of web development. I enthusiastically
           study new technologies and materials to become a better developer.
@@ -36,8 +36,8 @@ const HeaderSection = () => {
             target="_blank"
             className="flex hover:border-b hover:border-silver w-fit cursor-pointer transition"
           >
-            <span className="mr-2 font-[300]">Say hi</span>
-            <img src="/public/img/line.svg" alt="" />
+            <span className="mr-2">Say hi</span>
+            <img src="/public/img/line.svg" alt="img" />
           </a>
         </div>
       </div>
