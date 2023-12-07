@@ -57,3 +57,11 @@ body {
 .slick-prev {
   left: -10px !important;
 }
+
+.slick-dots {
+  bottom: -40px !important;
+}
+
+.slick-dots li button::before {
+  color: #fff !important;
+}
