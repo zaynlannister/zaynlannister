@@ -4,6 +4,15 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    name: "Google clone",
+    description:
+      "Google search clone application, You are able to google anything and it works the same as google search via using it's API.",
+    webLink: "https://google-search-clone-six-eta.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/google-search-clone",
+    technologies: "React - Tailwind - API",
+    img: "google-clone",
+  },
+  {
     name: "Dolbi",
     description:
       "This is web application for purchasing NFTs, responsive ui is included.",
@@ -30,19 +39,11 @@ const projects = [
     technologies: "React - Tailwind - Styled Components",
     img: "coffee",
   },
-  {
-    name: "Google clone",
-    description:
-      "Google search clone application, You are able to google anything and it works the same as google search via using it's API.",
-    webLink: "https://google-search-clone-six-eta.vercel.app/",
-    githubLink: "https://github.com/zaynlannister/google-search-clone",
-    technologies: "React - Tailwind - API",
-    img: "google-clone",
-  },
+
   {
     name: "Calories Counter",
     description:
-      "The Calories Counter is a web application to calculate daily caloric needs based on user input such as age, gender, height, weight, and activity level.",
+      "The Calories Counter is a web application to calculate daily caloric needs based on age, gender, height, weight, and activity level.",
     webLink: "https://calories-counter-zaynlannister.vercel.app/",
     githubLink: "https://github.com/zaynlannister/calories-counter",
     technologies: "React - Tailwind - Styled Components",

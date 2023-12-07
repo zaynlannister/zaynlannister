@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ContactSection = () => {
   return (
-    <StyledContactSection data-aos="fade-down" id="contact">
+    <StyledContactSection id="contact">
       <div className="flex justify-between">
         <p className="text-[18px]">CONTACT</p>
         <div className="flex gap-2">

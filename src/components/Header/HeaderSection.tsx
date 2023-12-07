@@ -37,7 +37,7 @@ const HeaderSection = () => {
         </p>
         <div data-aos="fade-down" className="mt-6">
           <a
-            href="https:/t.me/zaynlannister"
+            href="https://t.me/zaynlannister"
             target="_blank"
             className="flex w-fit cursor-pointer header-content__tg"
           >
