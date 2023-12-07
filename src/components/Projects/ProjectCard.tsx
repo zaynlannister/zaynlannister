@@ -4,11 +4,15 @@ const ProjectCard = (props: any) => {
   return (
     <StyledProjectCard>
       <div>
-        <img
-          className="project-card__img"
-          src={`/img/projects/${props.img}.png`}
-          alt="img"
-        />
+        <div className="overflow-hidden">
+          <a target="_blank" href={props.webLink}>
+            <img
+              className="project-card__img"
+              src={`/img/projects/${props.img}.png`}
+              alt="img"
+            />
+          </a>
+        </div>
       </div>
       <div className="p-4 pt-2 project-card__content">
         <div className="min-h-[150px]">
@@ -30,12 +34,18 @@ const ProjectCard = (props: any) => {
 
 const StyledProjectCard = styled.div`
   margin: 0 20px;
+  overflow: hidden;
 
   .project-card {
     &__img {
+      overflow: hidden;
       width: 100%;
       height: 170px;
       object-fit: cover;
+
+      &:hover {
+        transform: scale(1.2);
+      }
     }
 
     &__content {
