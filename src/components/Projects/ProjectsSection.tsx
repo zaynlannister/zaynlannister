@@ -13,31 +13,58 @@ const projects = [
     img: "dolbi",
   },
   {
+    name: "Grocery Store",
+    description:
+      "Fresh groceries delivered to your doorstep. Convenient, reliable, and personalized shopping experience.",
+    webLink: "https://grocery-store-landing.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/grocery-store-landing",
+    technologies: "React - Tailwind - Styled Components - Slick js",
+    img: "grocery-store",
+  },
+  {
     name: "Coffee Store",
     description:
-      "SmThis i too. Used technologies: React, TS, react-slick, aos, styled-componentsth",
-    webLink: "",
-    githubLink: "",
+      "This is landing web application with awesome design and user interface , dive into coffee world with us!",
+    webLink: "https://coffee-shop-landing.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/coffee-shop-landing",
     technologies: "React - Tailwind - Styled Components",
     img: "coffee",
   },
   {
-    name: "Dolbi",
+    name: "Google clone",
     description:
-      "This is web application for purchasing NFTs, responsive ui is included too. ologies: React, TS, react-slick, aos, styled-components",
-    webLink: "",
-    githubLink: "",
-    technologies: "React - Tailwind - Styled Components",
-    img: "dolbi",
+      "Google search clone application, You are able to google anything and it works the same as google search via using it's API.",
+    webLink: "https://google-search-clone-six-eta.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/google-search-clone",
+    technologies: "React - Tailwind - API",
+    img: "google-clone",
   },
   {
-    name: "Dolbi",
+    name: "Calories Counter",
     description:
-      "This is web application for purchasing NFTs, respok, aos, styled-components",
-    webLink: "",
-    githubLink: "",
+      "The Calories Counter is a web application to calculate daily caloric needs based on user input such as age, gender, height, weight, and activity level.",
+    webLink: "https://calories-counter-zaynlannister.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/calories-counter",
     technologies: "React - Tailwind - Styled Components",
-    img: "dolbi",
+    img: "calories-counter",
+  },
+  {
+    name: "Wine",
+    description:
+      "Web application that invites you to explore the exquisite world of wines.",
+    webLink: "https://wine-react.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/wine-react",
+    technologies: "React - Tailwind - Styled Components - Slick js",
+    img: "wine",
+  },
+  {
+    name: "Address Book",
+    description:
+      "Contacts Application with search, filter, (create, edit and remove)",
+    webLink: "https://contacts-app-zaynlannister.vercel.app/",
+    githubLink: "https://github.com/zaynlannister/contacts-app",
+    technologies: "React - Tailwind - Styled Components - Slick js",
+    img: "contacts",
   },
 ];
 
@@ -71,8 +98,10 @@ const ProjectsSection = () => {
     ],
   };
   return (
-    <StyledProjectSection>
-      <p className="text-[18px]">FEATURED PROJECTS</p>
+    <StyledProjectSection id="projects">
+      <p data-aos="fade-right" className="text-[18px]">
+        FEATURED PROJECTS
+      </p>
       <div className="mt-8">
         <Slider {...sliderSettings}>
           {projects.map((item, index) => (

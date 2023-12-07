@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const JobCard = (props: any) => {
   return (
-    <StyledJobCard>
+    <StyledJobCard data-aos="fade-right">
       <div className="flex justify-between items-center">
         <p className="jobcard__title text-[24px]">{props.position}</p>
         <p className="jobcard__date">{props.from}</p>

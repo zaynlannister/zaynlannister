@@ -6,7 +6,7 @@ const ProjectCard = (props: any) => {
       <div>
         <img
           className="project-card__img"
-          src={`/public/img/${props.img}.png`}
+          src={`/img/projects/${props.img}.png`}
           alt="img"
         />
       </div>
@@ -15,7 +15,7 @@ const ProjectCard = (props: any) => {
           <div className="flex justify-between items-center mb-2">
             <p className="text-[20px]">{props.name}</p>
             <a target="_blank" href={props.githubLink}>
-              <img src="/public/img/github.svg" alt="github" />
+              <img src="/img/github.svg" alt="github" />
             </a>
           </div>
           <p className="text-[#C4C4C4]">{props.description}</p>

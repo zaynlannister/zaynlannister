@@ -15,7 +15,9 @@ const experienceData = [
 const InfoSection = () => {
   return (
     <StyledInfo>
-      <p className="text-[18px]">EXPERIENCE</p>
+      <p data-aos="fade-right" className="text-[18px]">
+        EXPERIENCE
+      </p>
       {experienceData.map((item, index) => (
         <JobCard key={index} {...item} />
       ))}

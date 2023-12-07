@@ -2,18 +2,18 @@ import styled from "styled-components";
 
 const ContactSection = () => {
   return (
-    <StyledContactSection>
+    <StyledContactSection data-aos="fade-down" id="contact">
       <div className="flex justify-between">
         <p className="text-[18px]">CONTACT</p>
         <div className="flex gap-2">
           <a target="_blank" href="https:/github.com/zaynlannister">
-            <img src="/public/img/github.svg" alt="github" />
+            <img src="/img/github.svg" alt="github" />
           </a>
           <a
             target="_blank"
             href="https://www.linkedin.com/in/bekzod-tulayev-4775221bb/"
           >
-            <img width="24px" src="/public/img/linkedin.svg" alt="linkedin" />
+            <img width="24px" src="/img/linkedin.svg" alt="linkedin" />
           </a>
         </div>
       </div>
