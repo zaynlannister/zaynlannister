@@ -72,8 +72,8 @@ const projects = [
 const ProjectsSection = () => {
   const sliderSettings: Settings = {
     dots: true,
-    infinite: false,
-    speed: 700,
+    infinite: true,
+    speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 0,
