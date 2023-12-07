@@ -23,6 +23,10 @@ const InfoSection = () => {
   );
 };
 
-const StyledInfo = styled.div``;
+const StyledInfo = styled.div`
+  border-bottom: 1px solid #6e6e6e;
+  padding-bottom: 30px;
+  padding-top: 50px;
+`;
 
 export default InfoSection;

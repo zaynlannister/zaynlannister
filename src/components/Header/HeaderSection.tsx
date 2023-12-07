@@ -17,7 +17,7 @@ const HeaderSection = () => {
           </a>
         </div>
       </div>
-      <div className="header-content my-28">
+      <div className="header-content my-24">
         <p>Hey, I'm</p>
         <p className="text-[90px] font-[500] header-content__title">
           zaynlannister
