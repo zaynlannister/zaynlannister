@@ -42,6 +42,7 @@ const StyledProjectCard = styled.div`
       width: 100%;
       height: 170px;
       object-fit: cover;
+      transition: transform 0.3s ease;
 
       &:hover {
         transform: scale(1.2);
